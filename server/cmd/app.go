@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+// function for API routes
 func main() {
 	
 	r := gin.Default();
@@ -13,6 +14,6 @@ func main() {
 			"message": "Hello",
 		});
 	});
-	r.Run("localhost:8080"); // Listens and runs on port 0.0.0.0:8080
+	r.Run("localhost:8080");
 
 }
