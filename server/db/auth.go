@@ -6,5 +6,5 @@ import (
 )
 
 func auth() {
-    
+	client, err := supabase.NewClient(os.get)
 }
